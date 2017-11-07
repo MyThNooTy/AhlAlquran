@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/card_view"
+    android:layout_margin="1dp"
+    android:elevation="1dp"
+
+    card_view:cardCornerRadius="6dp"
+    card_view:contentPadding="4dp"
+    card_view:cardUseCompatPadding="true"
+    card_view:cardElevation="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:clickable="true"
+            android:scaleType="centerCrop"
+            card_view:srcCompat="@drawable/quran_book"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"/>
+        <TextView
+            android:id="@+id/gName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/image"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:textColor="@color/cardview_dark_background"
+            android:text="test"
+            android:textStyle="normal"
+            android:typeface="sans"/>
+
+        <TextView
+            android:id="@+id/adminName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gName"
+            android:layout_toRightOf="@id/image"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="testasd"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/SdateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adminName"
+            android:layout_toRightOf="@id/image"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="Start At: "
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/Sdate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adminName"
+            android:layout_toRightOf="@id/SdateTitle"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="testasd"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/EdateTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adminName"
+            android:layout_toRightOf="@id/Sdate"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="End Date: "
+            android:layout_marginLeft="10dp"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:typeface="sans" />
+        <TextView
+            android:id="@+id/Edate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/adminName"
+            android:layout_toRightOf="@id/EdateTitle"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:paddingTop="5dp"
+            android:text="testasd"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="10sp"
+            android:textStyle="normal"
+            android:typeface="sans" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

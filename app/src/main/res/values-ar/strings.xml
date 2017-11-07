@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أهل القرآن</string>
+    <string name="add_mobile_number">يرجى ادخال رقم الجوال للمتابعة</string>
+    <string name="send">إرسال</string>
+    <string name="ERROR_CODE_MESSEG">خطأ!</string>
+    <string name="create_group">انشئ مجموعة</string>
+    <string name="error_msg">خطأ</string>
+    <string name="nave_add_group">إضافة مجموعة</string>
+    <string name="nave_groups">مجموعة</string>
+    <string name="nave_settings">الإعدادات</string>
+    <string name="no_phone_number">يرجى ادخال رقم جوال صحيح</string>
+    <string name="not_connected_to_internet">يرجى التحقق من اتصالاالنترنتا</string>
+    <string name="profile_updated">تم تحديث بياناتك الشخصية</string>
+    <string name="settings">الاعدادات</string>
+    <string name="verify_message">سيتم ارسال رسالة نصية بكود التفعيل</string>
+    <string name="verifyme">تأكيد</string>
+    <string name="yes">لا</string>
+    <string name="action_settings">الملف الشخصي</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="birth_day">تاريخ الميلاد:</string>
+</resources>
