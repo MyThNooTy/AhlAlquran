@@ -33,7 +33,7 @@ class dbClass extends SQLiteOpenHelper {
     private static dbClass db = null;
     dbClass(   ) {
        super( App.getApp(), DATABASE_NAME, null, DATABASE_VERSION);
-       boolean dbExists = false;
+       boolean dbExists = false; 
        Context context = App.getApp();
 
         try{
